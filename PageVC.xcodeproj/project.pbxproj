@@ -14,6 +14,8 @@
 		AA1505D51D394E1000AD1989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1505D41D394E1000AD1989 /* Assets.xcassets */; };
 		AA1505D81D394E1000AD1989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1505D61D394E1000AD1989 /* LaunchScreen.storyboard */; };
 		AA1505E31D394E1000AD1989 /* PageVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1505E21D394E1000AD1989 /* PageVCTests.m */; };
+		AA1505EF1D394EAD00AD1989 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1505EE1D394EAD00AD1989 /* PageViewController.m */; };
+		AA1505F21D394F0800AD1989 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1505F11D394F0800AD1989 /* Photo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		AA1505DE1D394E1000AD1989 /* PageVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1505E21D394E1000AD1989 /* PageVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageVCTests.m; sourceTree = "<group>"; };
 		AA1505E41D394E1000AD1989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1505ED1D394EAD00AD1989 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		AA1505EE1D394EAD00AD1989 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		AA1505F01D394F0800AD1989 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		AA1505F11D394F0800AD1989 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +87,8 @@
 		AA1505C71D394E1000AD1989 /* PageVC */ = {
 			isa = PBXGroup;
 			children = (
-				AA1505CB1D394E1000AD1989 /* AppDelegate.h */,
-				AA1505CC1D394E1000AD1989 /* AppDelegate.m */,
-				AA1505CE1D394E1000AD1989 /* ViewController.h */,
-				AA1505CF1D394E1000AD1989 /* ViewController.m */,
-				AA1505D11D394E1000AD1989 /* Main.storyboard */,
-				AA1505D41D394E1000AD1989 /* Assets.xcassets */,
-				AA1505D61D394E1000AD1989 /* LaunchScreen.storyboard */,
-				AA1505D91D394E1000AD1989 /* Info.plist */,
+				AA1505ED1D394EAD00AD1989 /* PageViewController.h */,
+				AA1505EE1D394EAD00AD1989 /* PageViewController.m */,
 				AA1505C81D394E1000AD1989 /* Supporting Files */,
 			);
 			path = PageVC;
@@ -97,6 +97,16 @@
 		AA1505C81D394E1000AD1989 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA1505F01D394F0800AD1989 /* Photo.h */,
+				AA1505F11D394F0800AD1989 /* Photo.m */,
+				AA1505CE1D394E1000AD1989 /* ViewController.h */,
+				AA1505CF1D394E1000AD1989 /* ViewController.m */,
+				AA1505CB1D394E1000AD1989 /* AppDelegate.h */,
+				AA1505CC1D394E1000AD1989 /* AppDelegate.m */,
+				AA1505D11D394E1000AD1989 /* Main.storyboard */,
+				AA1505D41D394E1000AD1989 /* Assets.xcassets */,
+				AA1505D61D394E1000AD1989 /* LaunchScreen.storyboard */,
+				AA1505D91D394E1000AD1989 /* Info.plist */,
 				AA1505C91D394E1000AD1989 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -214,6 +224,8 @@
 				AA1505D01D394E1000AD1989 /* ViewController.m in Sources */,
 				AA1505CD1D394E1000AD1989 /* AppDelegate.m in Sources */,
 				AA1505CA1D394E1000AD1989 /* main.m in Sources */,
+				AA1505F21D394F0800AD1989 /* Photo.m in Sources */,
+				AA1505EF1D394EAD00AD1989 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
